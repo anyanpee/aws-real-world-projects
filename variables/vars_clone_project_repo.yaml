@@ -6,6 +6,6 @@ become_root : yes
 # Project Repository and Branch
 project_repository    : https://github.com/awanmbandi/ansible-tower-workflow-template-project2.git
 destination_clone_path: /home/ansibletower/ansible-tower-project
-project_repo_branch   : main
+project_repo_branch   : master
 # clone_project_repo    : yes
 # update_project_repo   : yes
