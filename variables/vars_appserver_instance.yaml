@@ -7,12 +7,12 @@ connection  : "local"
 
 # Task Name for Identification
 webapp_instance_task_name       : "Wordpress Web Application Server"
-webapp_instance_image           : "ami-0075013580f6322a1"  # Replace with the desired Amazon Machine Image (AMI)
+webapp_instance_image           : "ami-0b8c6b923777519db"  # Replace with the desired Amazon Machine Image (AMI)
 webapp_instance_type            : "t2.micro"        # Replace with the desired EC2 instance type
 webapp_instance_region          : "us-west-2"       # Replace with your desired region
-webapp_instance_group_id        : "sg-0c061a84d30ddc828"
-webapp_instance_subnet_id       : "subnet-012edebd8277cefd5"  # Replace with your subnet ID
-webapp_instance_key_name        : "oregon-keypair"  # Replace with your key pair name
+webapp_instance_group_id        : "sg-08a20335428e0a901"
+webapp_instance_subnet_id       : "subnet-09df8dfb73a5bd2a3"  # Replace with your subnet ID
+webapp_instance_key_name        : "oregun-keypair"  # Replace with your key pair name
 webapp_instance_assign_public_ip: yes
 webapp_instance_wait_timeout    : 180
 webapp_instance_resource_state  : "present"
